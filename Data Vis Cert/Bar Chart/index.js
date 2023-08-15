@@ -65,6 +65,7 @@ function draw() {
         })
         .attr("data-date", function (d) { return d[0] })
         .attr("data-gdp", function (d) { return d[1] })
+        .attr("class","bar")
 
 
     // create a tooltip
